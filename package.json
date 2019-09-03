@@ -1,0 +1,29 @@
+{
+  "name": "xlsx2json",
+  "version": "1.0.0",
+  "description": "convert xlsx to json use nodejs.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FernandoGurgel/convert_xlsx2json.git"
+  },
+  "keywords": [
+    "json",
+    "xlsx",
+    "convert"
+  ],
+  "author": "Fernando Gurgel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FernandoGurgel/convert_xlsx2json/issues"
+  },
+  "homepage": "https://github.com/FernandoGurgel/convert_xlsx2json#readme",
+  "dependencies": {
+    "dotenv": "^8.1.0",
+    "xlsx-to-json": "^0.3.0"
+  }
+}
